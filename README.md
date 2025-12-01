@@ -1,38 +1,29 @@
-# 📈 Projeto de Forecasting de Vendas
+# Projeto de Forecasting de Vendas
 
-Este projeto tem como objetivo construir um pipeline completo de previsão de vendas utilizando dados históricos, engenharia de variáveis, validação de modelos e geração de inferências para o ano de 2025.
+Este projeto tem como objetivo prever vendas de produtos utilizando dados históricos, variáveis de concorrência e calendário, com modelos de machine learning.
 
 ## Estrutura do Projeto
-- **app/**: Código principal do aplicativo (em desenvolvimento)
-- **data/**: Dados utilizados no projeto
-  - **raw/**: Dados brutos de treinamento e inferência
-  - **processed/**: Dados processados e prontos para modelagem
-- **docs/**: Documentação complementar (em desenvolvimento)
-- **models/**: Modelos treinados e arquivos de exportação
-- **notebooks/**: Notebooks de análise, treinamento e inferência
-
-## Principais Etapas
-1. **Carregamento dos dados**: Importação dos arquivos de vendas e concorrentes.
-2. **Validação e limpeza**: Análise de qualidade dos dados, tratamento de nulos e tipos.
-3. **Engenharia de variáveis**: Criação de variáveis temporais, lags, médias móveis, descontos, preços de concorrentes e codificação one-hot.
-4. **Modelagem**: Treinamento do modelo HistGradientBoostingRegressor com validação e comparação com baseline.
-5. **Inferência**: Preparação dos dados de 2025, aplicação do modelo final e geração de previsões.
-6. **Exportação**: Salvamento dos resultados e do modelo final para uso futuro.
+- **app/**: Scripts principais
+- **data/**: Dados brutos e processados
+- **docs/**: Documentação detalhada
+- **models/**: Modelos treinados
+- **notebooks/**: Notebooks de análise, treinamento e previsão
 
 ## Como Executar
-1. Instale as dependências necessárias:
+1. Instale as dependências:
    ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn holidays joblib
+   pip install -r requirements.txt
    ```
-2. Execute os notebooks na pasta `notebooks/` para seguir o fluxo de análise, treinamento e inferência.
-3. O modelo final será salvo em `models/modelo_final.joblib` e os dados processados em `data/processed/`.
+2. Execute os notebooks em `notebooks/`:
+   - `treinamento.ipynb` para preparar dados e treinar o modelo
+   - `forecasting.ipynb` para gerar previsões
 
-## Requisitos
-- Python 3.8+
-- Bibliotecas: pandas, numpy, matplotlib, seaborn, scikit-learn, holidays, joblib
+## Documentação
+Consulte o guia completo em [`docs/guia_projeto.md`](docs/guia_projeto.md).
 
-## Autor
-Projeto desenvolvido por Gabriel Marcano para o desafio DS4B.
+## Principais Bibliotecas
+- pandas, numpy, matplotlib, seaborn, scikit-learn, holidays
 
 ---
-Dúvidas ou sugestões? Entre em contato!
+
+Projeto desenvolvido para fins de estudo e aplicação prática de forecasting.
