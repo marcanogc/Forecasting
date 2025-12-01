@@ -1,0 +1,13 @@
+# Arquivos e pastas a ignorar pelo git
+__pycache__/
+*.pyc
+.env
+/data/raw/
+/data/processed/
+/models/
+/notebooks/
+/app/__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+.github/
+.vscode/

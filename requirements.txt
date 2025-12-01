@@ -1,0 +1,7 @@
+# Requisitos principais para o projeto de Machine Learning
+pandas
+numpy
+scikit-learn
+matplotlib
+streamlit
+holidays
