@@ -18,6 +18,9 @@ Este projeto tem como objetivo prever vendas de produtos utilizando dados histó
    - `treinamento.ipynb` para preparar dados e treinar o modelo
    - `forecasting.ipynb` para gerar previsões
 
+## Demonstração Online
+Acesse a aplicação Streamlit: [simula-venda.streamlit.app](https://simula-venda.streamlit.app/)
+
 ## Documentação
 Consulte o guia completo em [`docs/guia_projeto.md`](docs/guia_projeto.md).
 

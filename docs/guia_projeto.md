@@ -32,6 +32,9 @@ Prever vendas de produtos utilizando dados históricos, variáveis de concorrên
    - `treinamento.ipynb` para preparar dados e treinar o modelo
    - `forecasting.ipynb` para gerar previsões
 
+## Aplicação Web
+Você pode testar o projeto online em: https://simula-venda.streamlit.app/
+
 ## Principais Bibliotecas
 - pandas, numpy, matplotlib, seaborn, scikit-learn, holidays
 
